@@ -1,0 +1,3 @@
+# cpu(1:s3c2410, 2:s3c2440)  flash(0:nand, 1:nor)  read/write(0:write, 1:read)   offset      file
+    2                              0                            0                   0        leds.bin
+    2                              0                            0                   0        leds.bin    

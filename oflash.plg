@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: oflash - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\THISWA~1\AppData\Local\Temp\RSPD9A4.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D BUILD_FT2232_FTD2XX=1 /Fp"Release/oflash.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\vc_projects\oflash_mlc\drivers\ft2232\ft2232.cpp"
+]
+Creating command line "cl.exe @C:\Users\THISWA~1\AppData\Local\Temp\RSPD9A4.tmp" 
+Creating temporary file "C:\Users\THISWA~1\AppData\Local\Temp\RSPD9B5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lib\FTD2XX.lib /nologo /subsystem:console /incremental:no /pdb:"Release/oflash.pdb" /machine:I386 /out:"Release/oflash.exe" 
+.\Release\binarybuffer.obj
+.\Release\cfi_flash.obj
+.\Release\config.obj
+.\Release\dongle_jtag.obj
+.\Release\flash.obj
+.\Release\ft2232.obj
+.\Release\interface.obj
+.\Release\jedec_flash.obj
+.\Release\jtag.obj
+.\Release\mem_rdwr.obj
+.\Release\nand.obj
+.\Release\nand_base.obj
+.\Release\nand_ecc.obj
+.\Release\nand_ids.obj
+.\Release\nand_menu.obj
+.\Release\nor_menu.obj
+.\Release\oflash.obj
+.\Release\openjtag_jtag.obj
+.\Release\pin2410.obj
+.\Release\pin2440.obj
+.\Release\pin2450.obj
+.\Release\pin6410.obj
+.\Release\ppt.obj
+.\Release\s3c2410.obj
+.\Release\s3c2410_mem_rdwr.obj
+.\Release\s3c2440.obj
+.\Release\s3c2440_mem_rdwr.obj
+.\Release\s3c2450_mem_rdwr.obj
+.\Release\s3c24x0.obj
+.\Release\s3c6410.obj
+.\Release\s3c6410_mem_rdwr.obj
+.\Release\StdAfx.obj
+.\Release\wiggler_jtag.obj
+]
+Creating command line "link.exe @C:\Users\THISWA~1\AppData\Local\Temp\RSPD9B5.tmp"
+<h3>Output Window</h3>
+Compiling...
+ft2232.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+oflash.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+ASM_FILES	:= 
+
+C_FILES 	:= 
+
+CPP_FILES       := jtag.cpp  mem_rdwr.cpp  s3c2410_mem_rdwr.cpp  s3c2440_mem_rdwr.cpp
+
+SUBDIRS	:= openjtag/ dongle/
+
+include $(TOPDIR)/Rules.make

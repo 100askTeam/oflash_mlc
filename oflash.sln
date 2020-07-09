@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oflash", "oflash.vcproj", "{CE7A3F0E-95BB-40E2-9208-5C6CA9D6BCF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7A3F0E-95BB-40E2-9208-5C6CA9D6BCF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE7A3F0E-95BB-40E2-9208-5C6CA9D6BCF3}.Debug|Win32.Build.0 = Debug|Win32
+		{CE7A3F0E-95BB-40E2-9208-5C6CA9D6BCF3}.Release|Win32.ActiveCfg = Release|Win32
+		{CE7A3F0E-95BB-40E2-9208-5C6CA9D6BCF3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,92 @@
+---- write Matches (94 in 28 files) ----
+Bitbang.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):        fprintf(stderr,"write failed for 0x%x, error %d (%s)\n",buf[0],f, ftdi_get_error_string(&ftdic));
+Bitbang.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):        fprintf(stderr,"write failed for 0x%x, error %d (%s)\n",buf[0],f, ftdi_get_error_string(&ftdic));
+Bitbang.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed for 0x%x, error %d (%s)\n",buf[0],f, ftdi_get_error_string(&ftdic));
+Bitbang2.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed for 0x%x: %s\n",
+Bitbang_ft2232.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed on channel 1 for 0x%x, error %d (%s)\n", buf[0], f, ftdi_get_error_string(&ftdic));
+Bitbang_ft2232.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed on channel 1 for 0x%x, error %d (%s)\n", buf[0], f, ftdi_get_error_string(&ftdic));
+Bitbang_ft2232.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed on channel 2 for 0x%x, error %d (%s)\n", buf[0], f, ftdi_get_error_string(&ftdic2));
+Bitbang_ft2232.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\examples):            fprintf(stderr,"write failed on channel 2 for 0x%x, error %d (%s)\n", buf[0], f, ftdi_get_error_string(&ftdic2));
+Cfg.txt (l:\vc_projects\oflash_mlc\debug):# cpu(1:s3c2410, 2:s3c2440)  flash(0:nand, 1:nor)  read/write(0:write, 1:read)   offset      file
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):					info->write_tout, "write");
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):					      "write to buffer");
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):				"buffer write");
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):						   "buffer write");
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):	printf ("\n  Erase timeout: %ld ms, write timeout: %ld ms\n",
+Cfi_flash.cpp (l:\vc_projects\oflash_mlc\drivers\nor):		printf ("  Buffer write timeout: %ld ms, "
+Config.cpp (l:\vc_projects\oflash_mlc):	printf("2. oflash [file], write [file] to flash with prompt\r\n");
+Flash.cpp (l:\vc_projects\oflash_mlc\common):		puts ("Can't write to protected Flash sectors\n");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write command to %s adaptive clocking"
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write command to %s clk divide by 5"
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):	LOG_DEBUG("write buffer (size %i):", ft2232_buffer_size);
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):			LOG_ERROR("couldn't write MPSSE commands to FT2232");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write to FT2232 to disable loopback");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
+Ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
+Ft2232_old.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write to FT2232 to disable loopback\n");
+Ft2232_old.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
+Ft2232_old.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib):            ftdi_error_return(ret, "usb bulk write failed");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib):            ftdi_error_return(ret, "usb bulk write async failed");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib):            ftdi_error_return(-1, "unable to write eeprom");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\src):            ftdi_error_return(ret, "usb bulk write failed");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\src):            ftdi_error_return(ret, "usb bulk write async failed");
+Ftdi.c (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\src):            ftdi_error_return(-1, "unable to write eeprom");
+Ftdi.cpp (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\ftdipp):int Context::write(unsigned char *buf, int size)
+Ftdi.cpp (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\ftdipp):int Eeprom::write(unsigned char *eeprom)
+Ftdi.hpp (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\ftdipp):    int write(unsigned char *buf, int size);
+Ftdi.hpp (l:\vc_projects\oflash_mlc\lib\libftdi-0.16\ftdipp):    int write(unsigned char *eeprom);
+Mtd.h (l:\vc_projects\oflash_mlc\include\mtd):	int (*write) (struct mtd_info *mtd, loff_t to, size_t len, size_t *retlen, const u_char *buf);
+Mtd.h (l:\vc_projects\oflash_mlc\include\mtd):#define MTD_WRITE(mtd, args) (*(mtd->write))(mtd, args, ...)
+Nand.h (l:\vc_projects\oflash_mlc\include):	return info->write(info, ofs, *len, (size_t *)len, buf);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):				DEBUG (MTD_DEBUG_LEVEL0, "%s: " "Failed write verify, page 0x%08x ", __FUNCTION__, page);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):				DEBUG (MTD_DEBUG_LEVEL0, "%s: " "Failed write verify, page 0x%08x ", __FUNCTION__, page);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):				DEBUG (MTD_DEBUG_LEVEL0, "%s: " "Failed write verify, page 0x%08x ", __FUNCTION__, page);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):					       	"%s: Failed ECC write "
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		DEBUG (MTD_DEBUG_LEVEL0, "nand_write_ecc: Attempt to write past end of page\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		printk (KERN_NOTICE "nand_write_ecc: Attempt to write not page aligned data\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		DEBUG (MTD_DEBUG_LEVEL0, "nand_write_oob: Attempt to write past end of page\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		DEBUG (MTD_DEBUG_LEVEL0, "nand_write_oob: " "Failed write, page 0x%08x\n", page);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		DEBUG (MTD_DEBUG_LEVEL0, "nand_write_oob: " "Failed write verify, page 0x%08x\n", page);
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		DEBUG (MTD_DEBUG_LEVEL0, "nand_writev: Attempted write past end of device\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		printk (KERN_NOTICE "nand_write_ecc: Attempt to write not page aligned data\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		printk ( "nand_erase: Device is write protected!!!\n");
+Nand_base.cpp (l:\vc_projects\oflash_mlc\drivers\nand):	mtd->write = nand_write;
+Nand_bbt.cpp (l:\vc_projects\oflash_mlc\drivers\nand):			goto write;
+Nand_bbt.cpp (l:\vc_projects\oflash_mlc\drivers\nand):				goto write;
+Nand_bbt.cpp (l:\vc_projects\oflash_mlc\drivers\nand):		printk (KERN_ERR "No space left to write bad block table\n");
+Nand_bbt.cpp (l:\vc_projects\oflash_mlc\drivers\nand):write:
+Nand_menu.cpp (l:\vc_projects\oflash_mlc\drivers\nand):			if(mtd->write(mtd, instr.addr+i*mtd->oobblock, mtd->oobblock, &retlen, srcPt))
+Nand_util.cpp (l:\vc_projects\oflash_mlc\drivers\nand):        result = meminfo->write(meminfo,
+Nand_util.cpp (l:\vc_projects\oflash_mlc\drivers\nand):        printf ("nand_unlock: Device is write protected!\n");
+Nor_menu.cpp (l:\vc_projects\oflash_mlc\drivers\nor):		printf("The file is too big to write at the offset!\n");
+Nor_menu.cpp (l:\vc_projects\oflash_mlc\drivers\nor):	fprintf(stderr, "write ...");
+oflash使用说明.TXT (l:\vc_projects\oflash_mlc):# jtag(0:openjtag, 1:并口) cpu(0:s3c2410, 1:s3c2440, 2:s3c6410)  flash(0:nand, 1:nor)  read/write(0:write, 1:read)   offset      file
+oflash使用说明.TXT (l:\vc_projects\oflash_mlc\release):# jtag(0:openjtag, 1:并口) cpu(1:s3c2410, 2:s3c2440)  flash(0:nand, 1:nor)  read/write(0:write, 1:read)   offset      file
+Openjtag_jtag.cpp (l:\vc_projects\oflash_mlc\drivers\jtag\openjtag):		LOG_ERROR("couldn't write MPSSE commands to FT2232");
+S3c2410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    printf("\n[memory read/write command line]\n");
+S3c2410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    	    printf("| wb <hex_addr> <hex_data>: write, byte data                 |\n");
+S3c2410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| wh <hex_addr> <hex_data>: write, half-word data            |\n");
+S3c2410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| ww <hex_addr> <hex_data>: write, word data                 |\n");
+S3c2410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| 1. nGCS6,7 SDRAM read/write isn't supported now.           |\n");
+S3c2440_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    printf("\n[memory read/write command line]\n");
+S3c2440_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    	    printf("| wb <hex_addr> <hex_data>: write, byte data                 |\n");
+S3c2440_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| wh <hex_addr> <hex_data>: write, half-word data            |\n");
+S3c2440_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| ww <hex_addr> <hex_data>: write, word data                 |\n");
+S3c2440_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| 1. nGCS6,7 SDRAM read/write isn't supported now.           |\n");
+S3c2450_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    printf("\n[memory read/write command line]\n");
+S3c2450_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):   	    printf("| wb <hex_raddr> <hex_rdata>: write, byte rdata                 |\n");
+S3c2450_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| wh <hex_raddr> <hex_rdata>: write, half-word rdata            |\n");
+S3c2450_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| ww <hex_raddr> <hex_rdata>: write, word rdata                 |\n");
+S3c2450_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| 1. nSCS0,1 SDRAM read/write isn't supported now.           |\n");
+S3c6410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):    printf("\n[memory read/write command line]\n");
+S3c6410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):   	    printf("| wb <hex_raddr> <hex_rdata>: write, byte rdata                 |\n");
+S3c6410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| wh <hex_raddr> <hex_rdata>: write, half-word rdata            |\n");
+S3c6410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| ww <hex_raddr> <hex_rdata>: write, word rdata                 |\n");
+S3c6410_mem_rdwr.cpp (l:\vc_projects\oflash_mlc\drivers\jtag):	    printf("| 1. nSCS0,1 SDRAM read/write isn't supported now.           |\n");
+复件 ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write to FT2232 to disable loopback\n");
+复件 ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
+复件 ft2232.cpp (l:\vc_projects\oflash_mlc\drivers\ft2232):		LOG_ERROR("couldn't write MPSSE commands to FT2232\n");
